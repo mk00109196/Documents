@@ -1,0 +1,34 @@
+Steps:
+---------------------------------------------------------
+VS Code install
+
+https://medium.com/@prtdomingo/editing-files-in-your-linux-virtual-machine-made-a-lot-easier-with-remote-vscode-6bb98d0639a4
+
+>Remote: Start Server    --> in VS by pressing Cntl+p
+ssh -R 52698:127.0.0.1:52698 192.168.245.131   --> in VS terminal
+p: cloudera
+
+rmate <pyhont file name>    --> on linux and windows
+
+---------------------------------------------------------------------------------------
+Pycharm Install
+https://www.javatpoint.com/how-to-install-wine-on-centos
+
+pycharm --> editor
+sudo charm --> on terminal
+
+To run pycharm for all user --> graphics options solved
+sudo xhost +local:all
+---------------------------------------------------------------------------------------
+python upgrade to 3.6
+https://myopswork.com/install-python-2-7-10-on-centos-rhel-75f90c5239a5
+
+ln -s /usr/local/bin/python3.6 /usr/bin/python36
+
+------------------------------------------------------------------------------------------
+
+python upgrade to 2.7
+https://tecadmin.net/install-python-3-6-on-centos/
+https://linuxsuperuser.com/how-to-install-python-2-7-and-pip-on-centos-6-x/
+ln -s /usr/local/bin/python2.7 /usr/bin/python27
+------------------------------------------------------------------------------------------
